@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         tvText = findViewById(R.id.text);
         etKey = findViewById(R.id.text_key);
         btEncrypt = findViewById(R.id.bt_encrypt);
